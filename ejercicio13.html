@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verificación Mayoría de Edad</title>
+<link rel="stylesheet" href="css/ejercicio13.css">
+</head>
+<body>
+
+  <div class="tarjeta">
+    <h1 class="titulo">Verificar si puedes votar o no</h1>
+    <p class="subtitulo">Ingresa tu edad en años y verifica si puedes votar o no</p>
+
+    <div class="campo">
+      <label for="kilometros">Edad en Años</label>
+      <div class="entrada-envoltorio">
+        <input type="text" id="edad" placeholder="Ej. 25" inputmode="decimal">
+        <span class="unidad">Años</span>
+      </div>
+    </div>
+
+    <p class="error" id="mensajeError"></p>
+
+    <div class="campo">
+      <label for="resultado">Resultado de Validación</label>
+      <div class="entrada-envoltorio">
+        <input type="text" id="resultado" readonly placeholder="—">
+      </div>
+    </div>
+
+    <button onclick="verificar()">Verificar</button>
+
+  </div>
+
+<script src="js/ejercicio13.js"></script>
+</body>
+</html>

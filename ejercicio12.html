@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Convertir de Pesos a Dolares</title>
+<link rel="stylesheet" href="css/ejercicio12.css">
+</head>
+<body>
+
+  <div class="tarjeta">
+    <h1 class="titulo">De Pesos Mexicanos a Dolares Estadounidenses</h1>
+    <p class="subtitulo">Ingrese la cantidad en pesos MXN y conviértela al instante.</p>
+
+    <div class="campo">
+      <label for="pesos">Cantidad en Pesos Mexicanos</label>
+      <div class="entrada-envoltorio">
+        <input type="text" id="pesos" placeholder="Ej. 25" inputmode="decimal">
+        <span class="unidad">MXN</span>
+      </div>
+    </div>
+
+    <p class="error" id="mensajeError"></p>
+
+    <div class="campo">
+      <label for="resultado">Resultado en Dolares</label>
+      <div class="entrada-envoltorio">
+        <input type="text" id="resultado" readonly placeholder="—">
+        <span class="unidad">USD</span>
+      </div>
+    </div>
+
+    <button onclick="convertir()">Convertir</button>
+
+    <p class="formula">USD = MXN * tasa de cambio (0.055)</p>
+    <p class="formula">1 USD = 18.18 MXN</p>
+  </div>
+
+<script src="js/ejercicio12.js"></script>
+</body>
+</html>

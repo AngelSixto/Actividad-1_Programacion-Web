@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 17 - Gestor de Tareas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/ejercicio17.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h2>Gestor de Tareas Pendientes</h2>
+        
+        <div class="formulario">
+            <div class="grupo">
+                <input type="text" id="tareaInput" placeholder="Escribe una nueva tarea...">
+            </div>
+            <button type="button" id="btnAgregar">Agregar Tarea</button>
+        </div>
+
+        <span id="mensajeError" class="error"></span>
+
+        <ul id="listaTareas" class="lista-tareas"></ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/ejercicio17.js"></script>
+</body>
+</html>

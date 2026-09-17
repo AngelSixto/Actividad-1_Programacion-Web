@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Celsius a Fahrenheit</title>
+<link rel="stylesheet" href="css/ejercicio11.css">
+</head>
+<body>
+
+  <div class="tarjeta">
+    <h1 class="titulo">Kilometros a Millas</h1>
+    <p class="subtitulo">Ingresa una distancia en Kilometros y conviértela al instante.</p>
+
+    <div class="campo">
+      <label for="kilometros">Distancia en Kilometros</label>
+      <div class="entrada-envoltorio">
+        <input type="text" id="kilometros" placeholder="Ej. 25" inputmode="decimal">
+        <span class="unidad">km</span>
+      </div>
+    </div>
+
+    <p class="error" id="mensajeError"></p>
+
+    <div class="campo">
+      <label for="resultado">Resultado en Millas</label>
+      <div class="entrada-envoltorio">
+        <input type="text" id="resultado" readonly placeholder="—">
+        <span class="unidad">Mi</span>
+      </div>
+    </div>
+
+    <button onclick="convertir()">Convertir</button>
+
+    <p class="formula">Mi = Km * 0.621371</p>
+  </div>
+
+<script src="js/ejercicio11.js"></script>
+</body>
+</html>
