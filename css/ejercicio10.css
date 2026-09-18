@@ -2,7 +2,7 @@
   --azul: #2b4f6b;
   --azul-claro: #eaf2f6;
   --naranja: #e08c46;
-  --texto: #22303a;
+  --texto: #0f4d79;
   --texto-suave: #5c6d78;
   --borde: #d8e2e8;
   --blanco: #ffffff;
@@ -35,6 +35,7 @@ body {
 }
 
 .titulo {
+  color:#11598b;
   font-size: 1.5rem;
   margin: 0 0 6px;
   font-weight: 600;
